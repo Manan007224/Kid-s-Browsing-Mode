@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Project Anti-Bullying",
+  "version": "0.1.0",
+  "description": "Lateral blog post demo extension",
+
+  "content_scripts": [{
+
+    "matches": ["<all_urls>"],
+
+    "permissions": [
+    	"tabs",
+    	"http://localhost:3000/*"
+	],
+
+    "js": ["content.js"],
+    "run_at": "document_end"
+  }]
+
+}

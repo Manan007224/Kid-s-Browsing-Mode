@@ -1,0 +1,14 @@
+{
+  "name": "watson-call",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Louis Tran",
+  "license": "ISC",
+  "dependencies": {
+    "watson-developer-cloud": "^2.39.0"
+  }
+}
